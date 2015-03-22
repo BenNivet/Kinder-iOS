@@ -10,6 +10,7 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
 
+    @IBOutlet weak var avatarImg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
