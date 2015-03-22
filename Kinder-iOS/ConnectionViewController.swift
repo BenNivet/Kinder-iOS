@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ConnectionViewController.swift
 //  Kinder-iOS
 //
 //  Created by Mac portable b_can on 15/03/2015.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ConnectionViewController: UIViewController {
 
+    @IBOutlet weak var connectButton: UIButton!
+    @IBOutlet weak var createAccountButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

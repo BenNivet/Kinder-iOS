@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		1919B8F71AB5B93200F69E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8F61AB5B93200F69E79 /* AppDelegate.swift */; };
 		1919B8FA1AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8F81AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld */; };
-		1919B8FC1AB5B93200F69E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8FB1AB5B93200F69E79 /* ViewController.swift */; };
+		1919B8FC1AB5B93200F69E79 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */; };
 		1919B8FF1AB5B93200F69E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1919B8FD1AB5B93200F69E79 /* Main.storyboard */; };
 		1919B9011AB5B93200F69E79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1919B9001AB5B93200F69E79 /* Images.xcassets */; };
 		1919B9041AB5B93200F69E79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1919B9021AB5B93200F69E79 /* LaunchScreen.xib */; };
 		1919B9101AB5B93200F69E79 /* Kinder_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B90F1AB5B93200F69E79 /* Kinder_iOSTests.swift */; };
+		1949A0B01ABC965500998E9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1949A0AF1ABC965500998E9D /* CoreData.framework */; };
+		1949A0EF1ABEE7D000998E9D /* avatar-icon - copie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */; };
+		1949A0F01ABEE7D000998E9D /* facebook-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */; };
+		1949A0F11ABEE7D000998E9D /* googleplus-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E81ABEE7D000998E9D /* googleplus-logo.png */; };
+		1949A0F21ABEE7D000998E9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0EC1ABEE7D000998E9D /* Alamofire.swift */; };
+		1949A0F31ABEE7D000998E9D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */; };
+		1949A0F51ABEEE5A00998E9D /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */; };
+		1949A0F91ABEF7A000998E9D /* CreateCompte1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */; };
+		1949A0FA1ABEF7A000998E9D /* CreateCompte2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */; };
+		1949A0FB1ABEF7A000998E9D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */; };
+		1949A0FD1ABEFB0700998E9D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +42,24 @@
 		1919B8F51AB5B93200F69E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1919B8F61AB5B93200F69E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1919B8F91AB5B93200F69E79 /* Kinder_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinder_iOS.xcdatamodel; sourceTree = "<group>"; };
-		1919B8FB1AB5B93200F69E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		1919B8FE1AB5B93200F69E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1919B9001AB5B93200F69E79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1919B9031AB5B93200F69E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1919B9091AB5B93200F69E79 /* Kinder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kinder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1919B90E1AB5B93200F69E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1919B90F1AB5B93200F69E79 /* Kinder_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kinder_iOSTests.swift; sourceTree = "<group>"; };
+		1949A0AF1ABC965500998E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar-icon - copie.jpg"; sourceTree = "<group>"; };
+		1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "facebook-logo.jpg"; sourceTree = "<group>"; };
+		1949A0E81ABEE7D000998E9D /* googleplus-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleplus-logo.png"; sourceTree = "<group>"; };
+		1949A0EC1ABEE7D000998E9D /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompte1TableViewController.swift; sourceTree = "<group>"; };
+		1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompte2TableViewController.swift; sourceTree = "<group>"; };
+		1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1949A0B01ABC965500998E9D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 		1919B8E81AB5B93200F69E79 = {
 			isa = PBXGroup;
 			children = (
+				1949A0AF1ABC965500998E9D /* CoreData.framework */,
 				1919B8F31AB5B93200F69E79 /* Kinder-iOS */,
 				1919B90C1AB5B93200F69E79 /* Kinder-iOSTests */,
 				1919B8F21AB5B93200F69E79 /* Products */,
@@ -79,10 +103,12 @@
 		1919B8F31AB5B93200F69E79 /* Kinder-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */,
+				1949A0E91ABEE7D000998E9D /* Libraries */,
+				1949A0E51ABEE70100998E9D /* Controller */,
+				1949A0B71ABEDE7000998E9D /* Images */,
 				1919B8F61AB5B93200F69E79 /* AppDelegate.swift */,
-				1919B8FB1AB5B93200F69E79 /* ViewController.swift */,
 				1919B8FD1AB5B93200F69E79 /* Main.storyboard */,
-				1919B9001AB5B93200F69E79 /* Images.xcassets */,
 				1919B9021AB5B93200F69E79 /* LaunchScreen.xib */,
 				1919B8F81AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld */,
 				1919B8F41AB5B93200F69E79 /* Supporting Files */,
@@ -113,6 +139,54 @@
 				1919B90E1AB5B93200F69E79 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1949A0B71ABEDE7000998E9D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */,
+				1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */,
+				1949A0E81ABEE7D000998E9D /* googleplus-logo.png */,
+				1919B9001AB5B93200F69E79 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1949A0E51ABEE70100998E9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */,
+				1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */,
+				1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */,
+				1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */,
+				1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1949A0E91ABEE7D000998E9D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1949A0EB1ABEE7D000998E9D /* Alamofire */,
+				1949A0ED1ABEE7D000998E9D /* SwiftyJSON */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1949A0EB1ABEE7D000998E9D /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				1949A0EC1ABEE7D000998E9D /* Alamofire.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		1949A0ED1ABEE7D000998E9D /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1949A0EF1ABEE7D000998E9D /* avatar-icon - copie.jpg in Resources */,
+				1949A0F01ABEE7D000998E9D /* facebook-logo.jpg in Resources */,
 				1919B8FF1AB5B93200F69E79 /* Main.storyboard in Resources */,
+				1949A0F11ABEE7D000998E9D /* googleplus-logo.png in Resources */,
 				1919B9041AB5B93200F69E79 /* LaunchScreen.xib in Resources */,
 				1919B9011AB5B93200F69E79 /* Images.xcassets in Resources */,
 			);
@@ -215,8 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1919B8FC1AB5B93200F69E79 /* ViewController.swift in Sources */,
+				1949A0FD1ABEFB0700998E9D /* CreateAccountViewController.swift in Sources */,
+				1919B8FC1AB5B93200F69E79 /* ConnectionViewController.swift in Sources */,
 				1919B8FA1AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld in Sources */,
+				1949A0FB1ABEF7A000998E9D /* DatePickerViewController.swift in Sources */,
+				1949A0F21ABEE7D000998E9D /* Alamofire.swift in Sources */,
+				1949A0F91ABEF7A000998E9D /* CreateCompte1TableViewController.swift in Sources */,
+				1949A0F31ABEE7D000998E9D /* SwiftyJSON.swift in Sources */,
+				1949A0F51ABEEE5A00998E9D /* DismissSegue.swift in Sources */,
+				1949A0FA1ABEF7A000998E9D /* CreateCompte2TableViewController.swift in Sources */,
 				1919B8F71AB5B93200F69E79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +495,7 @@
 				1919B9151AB5B93200F69E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1919B9161AB5B93200F69E79 /* Build configuration list for PBXNativeTarget "Kinder-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +504,7 @@
 				1919B9181AB5B93200F69E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
