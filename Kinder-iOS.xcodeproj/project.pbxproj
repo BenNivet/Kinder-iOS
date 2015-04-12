@@ -9,22 +9,28 @@
 /* Begin PBXBuildFile section */
 		1919B8F71AB5B93200F69E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8F61AB5B93200F69E79 /* AppDelegate.swift */; };
 		1919B8FA1AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8F81AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld */; };
-		1919B8FC1AB5B93200F69E79 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */; };
 		1919B8FF1AB5B93200F69E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1919B8FD1AB5B93200F69E79 /* Main.storyboard */; };
 		1919B9011AB5B93200F69E79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1919B9001AB5B93200F69E79 /* Images.xcassets */; };
 		1919B9041AB5B93200F69E79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1919B9021AB5B93200F69E79 /* LaunchScreen.xib */; };
 		1919B9101AB5B93200F69E79 /* Kinder_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919B90F1AB5B93200F69E79 /* Kinder_iOSTests.swift */; };
 		1949A0B01ABC965500998E9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1949A0AF1ABC965500998E9D /* CoreData.framework */; };
-		1949A0EF1ABEE7D000998E9D /* avatar-icon - copie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */; };
-		1949A0F01ABEE7D000998E9D /* facebook-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */; };
-		1949A0F11ABEE7D000998E9D /* googleplus-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1949A0E81ABEE7D000998E9D /* googleplus-logo.png */; };
-		1949A0F21ABEE7D000998E9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0EC1ABEE7D000998E9D /* Alamofire.swift */; };
-		1949A0F31ABEE7D000998E9D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */; };
-		1949A0F51ABEEE5A00998E9D /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */; };
-		1949A0F91ABEF7A000998E9D /* CreateCompte1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */; };
-		1949A0FA1ABEF7A000998E9D /* CreateCompte2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */; };
-		1949A0FB1ABEF7A000998E9D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */; };
-		1949A0FD1ABEFB0700998E9D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */; };
+		19EAD0591ADAD6A5002C0FCB /* connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0451ADAD6A5002C0FCB /* connect.swift */; };
+		19EAD05A1ADAD6A5002C0FCB /* Disconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0461ADAD6A5002C0FCB /* Disconnect.swift */; };
+		19EAD05B1ADAD6A5002C0FCB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0471ADAD6A5002C0FCB /* SignUp.swift */; };
+		19EAD05C1ADAD6A5002C0FCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0491ADAD6A5002C0FCB /* Constants.swift */; };
+		19EAD05D1ADAD6A5002C0FCB /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD04A1ADAD6A5002C0FCB /* Links.swift */; };
+		19EAD05E1ADAD6A5002C0FCB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD04B1ADAD6A5002C0FCB /* Strings.swift */; };
+		19EAD05F1ADAD6A5002C0FCB /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD04D1ADAD6A5002C0FCB /* ConnectionViewController.swift */; };
+		19EAD0601ADAD6A5002C0FCB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD04E1ADAD6A5002C0FCB /* CreateAccountViewController.swift */; };
+		19EAD0611ADAD6A5002C0FCB /* CreateCompteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD04F1ADAD6A5002C0FCB /* CreateCompteTableViewController.swift */; };
+		19EAD0621ADAD6A5002C0FCB /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0501ADAD6A5002C0FCB /* DatePickerViewController.swift */; };
+		19EAD0631ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0521ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodeld */; };
+		19EAD0641ADAD6A5002C0FCB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0541ADAD6A5002C0FCB /* User.swift */; };
+		19EAD0651ADAD6A5002C0FCB /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAD0581ADAD6A5002C0FCB /* DismissSegue.swift */; };
+		19EAD06B1ADAD7A4002C0FCB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EAD0671ADAD7A4002C0FCB /* Bolts.framework */; };
+		19EAD06C1ADAD7A4002C0FCB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EAD0681ADAD7A4002C0FCB /* FBSDKCoreKit.framework */; };
+		19EAD06D1ADAD7A4002C0FCB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EAD0691ADAD7A4002C0FCB /* FBSDKLoginKit.framework */; };
+		19EAD06E1ADAD7A4002C0FCB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EAD06A1ADAD7A4002C0FCB /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,6 @@
 		1919B8F51AB5B93200F69E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1919B8F61AB5B93200F69E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1919B8F91AB5B93200F69E79 /* Kinder_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinder_iOS.xcdatamodel; sourceTree = "<group>"; };
-		1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		1919B8FE1AB5B93200F69E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1919B9001AB5B93200F69E79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1919B9031AB5B93200F69E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -50,16 +55,24 @@
 		1919B90E1AB5B93200F69E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1919B90F1AB5B93200F69E79 /* Kinder_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kinder_iOSTests.swift; sourceTree = "<group>"; };
 		1949A0AF1ABC965500998E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar-icon - copie.jpg"; sourceTree = "<group>"; };
-		1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "facebook-logo.jpg"; sourceTree = "<group>"; };
-		1949A0E81ABEE7D000998E9D /* googleplus-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleplus-logo.png"; sourceTree = "<group>"; };
-		1949A0EC1ABEE7D000998E9D /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
-		1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
-		1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompte1TableViewController.swift; sourceTree = "<group>"; };
-		1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompte2TableViewController.swift; sourceTree = "<group>"; };
-		1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
-		1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		19EAD0451ADAD6A5002C0FCB /* connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = connect.swift; sourceTree = "<group>"; };
+		19EAD0461ADAD6A5002C0FCB /* Disconnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disconnect.swift; sourceTree = "<group>"; };
+		19EAD0471ADAD6A5002C0FCB /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		19EAD0491ADAD6A5002C0FCB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		19EAD04A1ADAD6A5002C0FCB /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		19EAD04B1ADAD6A5002C0FCB /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		19EAD04D1ADAD6A5002C0FCB /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		19EAD04E1ADAD6A5002C0FCB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		19EAD04F1ADAD6A5002C0FCB /* CreateCompteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompteTableViewController.swift; sourceTree = "<group>"; };
+		19EAD0501ADAD6A5002C0FCB /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		19EAD0531ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinder_iOS.xcdatamodel; sourceTree = "<group>"; };
+		19EAD0541ADAD6A5002C0FCB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		19EAD0581ADAD6A5002C0FCB /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		19EAD0671ADAD7A4002C0FCB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		19EAD0681ADAD7A4002C0FCB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		19EAD0691ADAD7A4002C0FCB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		19EAD06A1ADAD7A4002C0FCB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		19EAD06F1ADADAE1002C0FCB /* Kinder-iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kinder-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EAD06B1ADAD7A4002C0FCB /* Bolts.framework in Frameworks */,
+				19EAD06C1ADAD7A4002C0FCB /* FBSDKCoreKit.framework in Frameworks */,
+				19EAD06D1ADAD7A4002C0FCB /* FBSDKLoginKit.framework in Frameworks */,
+				19EAD06E1ADAD7A4002C0FCB /* FBSDKShareKit.framework in Frameworks */,
 				1949A0B01ABC965500998E9D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +101,10 @@
 		1919B8E81AB5B93200F69E79 = {
 			isa = PBXGroup;
 			children = (
+				19EAD0671ADAD7A4002C0FCB /* Bolts.framework */,
+				19EAD0681ADAD7A4002C0FCB /* FBSDKCoreKit.framework */,
+				19EAD0691ADAD7A4002C0FCB /* FBSDKLoginKit.framework */,
+				19EAD06A1ADAD7A4002C0FCB /* FBSDKShareKit.framework */,
 				1949A0AF1ABC965500998E9D /* CoreData.framework */,
 				1919B8F31AB5B93200F69E79 /* Kinder-iOS */,
 				1919B90C1AB5B93200F69E79 /* Kinder-iOSTests */,
@@ -103,14 +124,14 @@
 		1919B8F31AB5B93200F69E79 /* Kinder-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1949A0F41ABEEE5A00998E9D /* DismissSegue.swift */,
 				1949A0E91ABEE7D000998E9D /* Libraries */,
-				1949A0E51ABEE70100998E9D /* Controller */,
-				1949A0B71ABEDE7000998E9D /* Images */,
-				1919B8F61AB5B93200F69E79 /* AppDelegate.swift */,
+				19EAD0431ADAD6A5002C0FCB /* Classes */,
 				1919B8FD1AB5B93200F69E79 /* Main.storyboard */,
+				1919B8F61AB5B93200F69E79 /* AppDelegate.swift */,
 				1919B9021AB5B93200F69E79 /* LaunchScreen.xib */,
+				19EAD06F1ADADAE1002C0FCB /* Kinder-iOS-Bridging-Header.h */,
 				1919B8F81AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld */,
+				1949A0B71ABEDE7000998E9D /* Images */,
 				1919B8F41AB5B93200F69E79 /* Supporting Files */,
 			);
 			path = "Kinder-iOS";
@@ -144,49 +165,92 @@
 		1949A0B71ABEDE7000998E9D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1949A0E61ABEE7D000998E9D /* avatar-icon - copie.jpg */,
-				1949A0E71ABEE7D000998E9D /* facebook-logo.jpg */,
-				1949A0E81ABEE7D000998E9D /* googleplus-logo.png */,
 				1919B9001AB5B93200F69E79 /* Images.xcassets */,
 			);
 			name = Images;
 			sourceTree = "<group>";
 		};
-		1949A0E51ABEE70100998E9D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1949A0FC1ABEFB0700998E9D /* CreateAccountViewController.swift */,
-				1949A0F61ABEF7A000998E9D /* CreateCompte1TableViewController.swift */,
-				1949A0F71ABEF7A000998E9D /* CreateCompte2TableViewController.swift */,
-				1949A0F81ABEF7A000998E9D /* DatePickerViewController.swift */,
-				1919B8FB1AB5B93200F69E79 /* ConnectionViewController.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		1949A0E91ABEE7D000998E9D /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				1949A0EB1ABEE7D000998E9D /* Alamofire */,
-				1949A0ED1ABEE7D000998E9D /* SwiftyJSON */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		1949A0EB1ABEE7D000998E9D /* Alamofire */ = {
+		19EAD0431ADAD6A5002C0FCB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1949A0EC1ABEE7D000998E9D /* Alamofire.swift */,
+				19EAD0441ADAD6A5002C0FCB /* Communication */,
+				19EAD0481ADAD6A5002C0FCB /* Constants */,
+				19EAD04C1ADAD6A5002C0FCB /* Controller */,
+				19EAD0511ADAD6A5002C0FCB /* Database */,
+				19EAD0551ADAD6A5002C0FCB /* Storyboard */,
 			);
-			path = Alamofire;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		1949A0ED1ABEE7D000998E9D /* SwiftyJSON */ = {
+		19EAD0441ADAD6A5002C0FCB /* Communication */ = {
 			isa = PBXGroup;
 			children = (
-				1949A0EE1ABEE7D000998E9D /* SwiftyJSON.swift */,
+				19EAD0451ADAD6A5002C0FCB /* connect.swift */,
+				19EAD0461ADAD6A5002C0FCB /* Disconnect.swift */,
+				19EAD0471ADAD6A5002C0FCB /* SignUp.swift */,
 			);
-			path = SwiftyJSON;
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		19EAD0481ADAD6A5002C0FCB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD0491ADAD6A5002C0FCB /* Constants.swift */,
+				19EAD04A1ADAD6A5002C0FCB /* Links.swift */,
+				19EAD04B1ADAD6A5002C0FCB /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		19EAD04C1ADAD6A5002C0FCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD04D1ADAD6A5002C0FCB /* ConnectionViewController.swift */,
+				19EAD04E1ADAD6A5002C0FCB /* CreateAccountViewController.swift */,
+				19EAD04F1ADAD6A5002C0FCB /* CreateCompteTableViewController.swift */,
+				19EAD0501ADAD6A5002C0FCB /* DatePickerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19EAD0511ADAD6A5002C0FCB /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD0521ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodeld */,
+				19EAD0541ADAD6A5002C0FCB /* User.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		19EAD0551ADAD6A5002C0FCB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD0561ADAD6A5002C0FCB /* Cell */,
+				19EAD0571ADAD6A5002C0FCB /* Segue */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		19EAD0561ADAD6A5002C0FCB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19EAD0571ADAD6A5002C0FCB /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD0581ADAD6A5002C0FCB /* DismissSegue.swift */,
+			);
+			path = Segue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1949A0EF1ABEE7D000998E9D /* avatar-icon - copie.jpg in Resources */,
-				1949A0F01ABEE7D000998E9D /* facebook-logo.jpg in Resources */,
 				1919B8FF1AB5B93200F69E79 /* Main.storyboard in Resources */,
-				1949A0F11ABEE7D000998E9D /* googleplus-logo.png in Resources */,
 				1919B9041AB5B93200F69E79 /* LaunchScreen.xib in Resources */,
 				1919B9011AB5B93200F69E79 /* Images.xcassets in Resources */,
 			);
@@ -292,16 +353,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1949A0FD1ABEFB0700998E9D /* CreateAccountViewController.swift in Sources */,
-				1919B8FC1AB5B93200F69E79 /* ConnectionViewController.swift in Sources */,
+				19EAD0601ADAD6A5002C0FCB /* CreateAccountViewController.swift in Sources */,
+				19EAD0651ADAD6A5002C0FCB /* DismissSegue.swift in Sources */,
 				1919B8FA1AB5B93200F69E79 /* Kinder_iOS.xcdatamodeld in Sources */,
-				1949A0FB1ABEF7A000998E9D /* DatePickerViewController.swift in Sources */,
-				1949A0F21ABEE7D000998E9D /* Alamofire.swift in Sources */,
-				1949A0F91ABEF7A000998E9D /* CreateCompte1TableViewController.swift in Sources */,
-				1949A0F31ABEE7D000998E9D /* SwiftyJSON.swift in Sources */,
-				1949A0F51ABEEE5A00998E9D /* DismissSegue.swift in Sources */,
-				1949A0FA1ABEF7A000998E9D /* CreateCompte2TableViewController.swift in Sources */,
+				19EAD05A1ADAD6A5002C0FCB /* Disconnect.swift in Sources */,
+				19EAD05E1ADAD6A5002C0FCB /* Strings.swift in Sources */,
+				19EAD0591ADAD6A5002C0FCB /* connect.swift in Sources */,
+				19EAD0611ADAD6A5002C0FCB /* CreateCompteTableViewController.swift in Sources */,
+				19EAD0641ADAD6A5002C0FCB /* User.swift in Sources */,
 				1919B8F71AB5B93200F69E79 /* AppDelegate.swift in Sources */,
+				19EAD0631ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodeld in Sources */,
+				19EAD05D1ADAD6A5002C0FCB /* Links.swift in Sources */,
+				19EAD0621ADAD6A5002C0FCB /* DatePickerViewController.swift in Sources */,
+				19EAD05B1ADAD6A5002C0FCB /* SignUp.swift in Sources */,
+				19EAD05C1ADAD6A5002C0FCB /* Constants.swift in Sources */,
+				19EAD05F1ADAD6A5002C0FCB /* ConnectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +492,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				INFOPLIST_FILE = "Kinder-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Kinder-iOS/Kinder-iOS-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -436,9 +509,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				INFOPLIST_FILE = "Kinder-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Kinder-iOS/Kinder-iOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -515,6 +595,16 @@
 				1919B8F91AB5B93200F69E79 /* Kinder_iOS.xcdatamodel */,
 			);
 			currentVersion = 1919B8F91AB5B93200F69E79 /* Kinder_iOS.xcdatamodel */;
+			path = Kinder_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		19EAD0521ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19EAD0531ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodel */,
+			);
+			currentVersion = 19EAD0531ADAD6A5002C0FCB /* Kinder_iOS.xcdatamodel */;
 			path = Kinder_iOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
